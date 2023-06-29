@@ -430,3 +430,11 @@ def feature_visualization(x, module_type, stage, n=32, save_dir=Path('runs/detec
 
             print(f'Saving {save_dir / f}... ({n}/{channels})')
             plt.savefig(save_dir / f, dpi=300, bbox_inches='tight')
+
+
+class Annotator:
+    pass
+
+
+def save_one_box():
+    return None
